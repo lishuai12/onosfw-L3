@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.9">
+<file name="/home/mininet/onos/utils/rest/src/main/java/org/onlab/rest/BaseResource.java">
+<error line="53" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/mininet/onos/utils/rest/src/main/java/org/onlab/rest/package-info.java">
+</file>
+</checkstyle>

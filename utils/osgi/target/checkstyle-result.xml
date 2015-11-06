@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.9">
+<file name="/home/mininet/onos/utils/osgi/src/main/java/org/onlab/osgi/ServiceNotFoundException.java">
+</file>
+<file name="/home/mininet/onos/utils/osgi/src/main/java/org/onlab/osgi/DefaultServiceDirectory.java">
+</file>
+<file name="/home/mininet/onos/utils/osgi/src/main/java/org/onlab/osgi/package-info.java">
+</file>
+<file name="/home/mininet/onos/utils/osgi/src/main/java/org/onlab/osgi/ServiceDirectory.java">
+</file>
+<file name="/home/mininet/onos/utils/osgi/src/test/java/org/onlab/osgi/ComponentContextAdapter.java">
+</file>
+<file name="/home/mininet/onos/utils/osgi/src/test/java/org/onlab/osgi/TestServiceDirectory.java">
+</file>
+</checkstyle>

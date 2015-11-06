@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.9">
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/MacAddressSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/MastershipTermSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/DefaultPortSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/Ip4AddressSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/StoreSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/ConnectPointSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/DefaultOutboundPacketSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/ArraysAsListSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/package-info.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/KryoSerializer.java">
+<error line="31" column="29" severity="warning" message="Variable &apos;serializerPool&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="33" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/Ip6PrefixSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/AnnotationsSerializer.java">
+<error line="12" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="14" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/IpAddressSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/ImmutableMapSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/LinkKeySerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/ImmutableSetSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/IpPrefixSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/DeviceIdSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/URISerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/PortNumberSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/DefaultLinkSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/DefaultApplicationIdSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/Ip4PrefixSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/KryoNamespaces.java">
+<error line="203" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="205" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="478" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/HostLocationSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/Ip6AddressSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/NodeIdSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/ImmutableListSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/main/java/org/onosproject/store/serializers/ProviderIdSerializer.java">
+</file>
+<file name="/home/mininet/onos/core/store/serializers/src/test/java/org/onosproject/store/serializers/KryoSerializerTest.java">
+<error line="103" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="135" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="139" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="153" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="157" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="170" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="177" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="182" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="188" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="194" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="202" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="208" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="214" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="219" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="226" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="233" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="240" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="261" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="266" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="271" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="276" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="281" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="286" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="291" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="296" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="301" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="306" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="311" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="317" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="323" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="328" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="333" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="339" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="344" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="351" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="360" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="374" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="379" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="386" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="391" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="396" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="401" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="406" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="411" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="416" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="421" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="426" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="431" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="436" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="441" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="446" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="459" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+</checkstyle>

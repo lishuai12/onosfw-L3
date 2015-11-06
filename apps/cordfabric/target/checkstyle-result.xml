@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.9">
+<file name="/home/mininet/onos/apps/cordfabric/src/main/java/org/onosproject/cordfabric/FabricWebResource.java">
+</file>
+<file name="/home/mininet/onos/apps/cordfabric/src/main/java/org/onosproject/cordfabric/package-info.java">
+</file>
+<file name="/home/mininet/onos/apps/cordfabric/src/main/java/org/onosproject/cordfabric/FabricService.java">
+</file>
+<file name="/home/mininet/onos/apps/cordfabric/src/main/java/org/onosproject/cordfabric/FabricVlanCodec.java">
+</file>
+<file name="/home/mininet/onos/apps/cordfabric/src/main/java/org/onosproject/cordfabric/FabricVlan.java">
+<error line="38" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="46" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="50" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="54" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/mininet/onos/apps/cordfabric/src/main/java/org/onosproject/cordfabric/CordFabricManager.java">
+<error line="74" column="27" severity="warning" message="Variable &apos;coreService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="77" column="36" severity="warning" message="Variable &apos;flowObjectiveService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="80" column="29" severity="warning" message="Variable &apos;deviceService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="99" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="112" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="119" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="286" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="345" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="354" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="378" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="401" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/mininet/onos/apps/cordfabric/src/main/java/org/onosproject/cordfabric/cli/FabricRemoveCommand.java">
+</file>
+<file name="/home/mininet/onos/apps/cordfabric/src/main/java/org/onosproject/cordfabric/cli/package-info.java">
+</file>
+<file name="/home/mininet/onos/apps/cordfabric/src/main/java/org/onosproject/cordfabric/cli/FabricShowCommand.java">
+</file>
+<file name="/home/mininet/onos/apps/cordfabric/src/main/java/org/onosproject/cordfabric/cli/FabricAddCommand.java">
+</file>
+</checkstyle>

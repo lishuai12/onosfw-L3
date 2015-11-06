@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.9">
+<file name="/home/mininet/onos/apps/test/distributed-primitives/src/main/java/org/onosproject/distributedprimitives/DistributedPrimitivesTest.java">
+<error line="42" column="27" severity="warning" message="Variable &apos;coreService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="45" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="52" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/mininet/onos/apps/test/distributed-primitives/src/main/java/org/onosproject/distributedprimitives/package-info.java">
+</file>
+<file name="/home/mininet/onos/apps/test/distributed-primitives/src/main/java/org/onosproject/distributedprimitives/cli/SetTestAddCommand.java">
+<error line="39" column="12" severity="warning" message="Variable &apos;setName&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="44" column="14" severity="warning" message="Variable &apos;values&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="46" column="17" severity="warning" message="Variable &apos;set&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="47" column="17" severity="warning" message="Variable &apos;toAdd&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="50" column="16" severity="warning" message="Variable &apos;serializer&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+</file>
+<file name="/home/mininet/onos/apps/test/distributed-primitives/src/main/java/org/onosproject/distributedprimitives/cli/package-info.java">
+</file>
+<file name="/home/mininet/onos/apps/test/distributed-primitives/src/main/java/org/onosproject/distributedprimitives/cli/SetTestGetCommand.java">
+<error line="44" column="12" severity="warning" message="Variable &apos;setName&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="49" column="14" severity="warning" message="Variable &apos;values&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="51" column="17" severity="warning" message="Variable &apos;set&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="52" column="17" severity="warning" message="Variable &apos;toCheck&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="53" column="12" severity="warning" message="Variable &apos;output&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="55" column="16" severity="warning" message="Variable &apos;serializer&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+</file>
+<file name="/home/mininet/onos/apps/test/distributed-primitives/src/main/java/org/onosproject/distributedprimitives/cli/SetTestRemoveCommand.java">
+<error line="49" column="12" severity="warning" message="Variable &apos;setName&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="54" column="14" severity="warning" message="Variable &apos;values&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="56" column="17" severity="warning" message="Variable &apos;set&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="57" column="17" severity="warning" message="Variable &apos;givenValues&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="58" column="16" severity="warning" message="Variable &apos;serializer&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+</file>
+<file name="/home/mininet/onos/apps/test/distributed-primitives/src/main/java/org/onosproject/distributedprimitives/cli/TransactionalMapTestGetCommand.java">
+<error line="44" column="38" severity="warning" message="Variable &apos;map&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="45" column="12" severity="warning" message="Variable &apos;mapName&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="46" column="16" severity="warning" message="Variable &apos;serializer&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+</file>
+<file name="/home/mininet/onos/apps/test/distributed-primitives/src/main/java/org/onosproject/distributedprimitives/cli/TransactionalMapTestPutCommand.java">
+<error line="49" column="38" severity="warning" message="Variable &apos;map&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="50" column="12" severity="warning" message="Variable &apos;prefix&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="51" column="12" severity="warning" message="Variable &apos;mapName&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="52" column="16" severity="warning" message="Variable &apos;serializer&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+</file>
+<file name="/home/mininet/onos/apps/test/distributed-primitives/src/main/java/org/onosproject/distributedprimitives/cli/CounterTestIncrementCommand.java">
+<error line="53" column="12" severity="warning" message="Variable &apos;counter&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="58" column="10" severity="warning" message="Variable &apos;delta&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="60" column="24" severity="warning" message="Variable &apos;atomicCounter&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+</file>
+</checkstyle>

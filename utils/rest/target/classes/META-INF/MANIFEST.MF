@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1446725779549
+Build-Jdk: 1.8.0_40-internal
+Built-By: mininet
+Bundle-Description: ON.Lab JAX-RS utilities
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: onlab-rest
+Bundle-SymbolicName: org.onosproject.onlab-rest
+Bundle-Version: 1.3.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.onlab.rest;version="1.3.0";uses:="javax.ws.rs.core,o
+ rg.onlab.osgi"
+Import-Package: javax.ws.rs.core;version="[1.1,2)",org.onlab.osgi;versio
+ n="[1.3,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-2.4.0.201411031534

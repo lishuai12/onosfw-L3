@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1446725931756
+Build-Jdk: 1.8.0_40-internal
+Built-By: mininet
+Bundle-ClassPath: WEB-INF/classes
+Bundle-Description: ONOS sample applications
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: onos-app-vtnweb
+Bundle-SymbolicName: org.onosproject.onos-app-vtnweb
+Bundle-Version: 1.3.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.onosproject.vtnweb.resources;version="1.3.0";uses:="
+ com.fasterxml.jackson.databind,javax.ws.rs,javax.ws.rs.core,org.onospro
+ ject.rest,org.onosproject.vtnrsc,org.slf4j"
+Import-Package: org.slf4j;version="[1.7,2)",javax.ws.rs;version="[1.1,2)
+ ",javax.ws.rs.core;version="[1.1,2)",com.fasterxml.jackson.databind;ver
+ sion="[2.4,3)",com.fasterxml.jackson.databind.node;version="[2.4,3)",co
+ m.google.common.base;version="[18.0,19)",com.google.common.collect;vers
+ ion="[18.0,19)",org.onlab.packet;version="[1.3,2)",org.onosproject.code
+ c;version="[1.3,2)",org.onosproject.net;version="[1.3,2)",org.onosproje
+ ct.rest;version="[1.3,2)",org.onosproject.vtnrsc;version="[1.3,2)",org.
+ onosproject.vtnrsc.exception;version="[1.3,2)",org.onosproject.vtnrsc.f
+ loatingip;version="[1.3,2)",org.onosproject.vtnrsc.router;version="[1.3
+ ,2)",org.onosproject.vtnrsc.routerinterface;version="[1.3,2)",org.onosp
+ roject.vtnrsc.subnet;version="[1.3,2)",org.onosproject.vtnrsc.tenantnet
+ work;version="[1.3,2)",org.onosproject.vtnrsc.virtualport;version="[1.3
+ ,2)",org.onosproject.vtnrsc.web;version="[1.3,2)",org.onlab.util;versio
+ n="[1.3,2)",org.osgi.framework,com.sun.jersey.api.core,com.sun.jersey.s
+ pi.container.servlet,com.sun.jersey.server.impl.container.servlet,com.f
+ asterxml.jackson.core;version="[2.4,3)",org.apache.karaf.shell.commands
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-2.4.0.201411031534
+Web-ContextPath: /onos/vtn

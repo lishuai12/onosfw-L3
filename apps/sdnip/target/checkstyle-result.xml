@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.9">
+<file name="/home/mininet/onos/apps/sdnip/src/main/java/org/onosproject/sdnip/SdnIpService.java">
+</file>
+<file name="/home/mininet/onos/apps/sdnip/src/main/java/org/onosproject/sdnip/package-info.java">
+</file>
+<file name="/home/mininet/onos/apps/sdnip/src/main/java/org/onosproject/sdnip/PeerConnectivityManager.java">
+<error line="74" column="50" severity="warning" message="Expected @param tag for &apos;routerAppId&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="75" column="53" severity="warning" message="Expected @param tag for &apos;interfaceService&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="121" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/mininet/onos/apps/sdnip/src/main/java/org/onosproject/sdnip/SdnIp.java">
+<error line="54" column="27" severity="warning" message="Variable &apos;coreService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="57" column="29" severity="warning" message="Variable &apos;intentService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="60" column="27" severity="warning" message="Variable &apos;hostService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="63" column="30" severity="warning" message="Variable &apos;clusterService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="66" column="33" severity="warning" message="Variable &apos;leadershipService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="69" column="30" severity="warning" message="Variable &apos;routingService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="72" column="43" severity="warning" message="Variable &apos;config&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="75" column="36" severity="warning" message="Variable &apos;networkConfigService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="78" column="32" severity="warning" message="Variable &apos;interfaceService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="88" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="117" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/mininet/onos/apps/sdnip/src/main/java/org/onosproject/sdnip/IntentSynchronizer.java">
+<error line="109" column="41" severity="warning" message="Expected @param tag for &apos;interfaceService&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/mininet/onos/apps/sdnip/src/main/java/org/onosproject/sdnip/cli/package-info.java">
+</file>
+<file name="/home/mininet/onos/apps/sdnip/src/main/java/org/onosproject/sdnip/cli/PrimaryChangeCommand.java">
+<error line="33" column="13" severity="warning" message="Variable &apos;isPrimary&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+</file>
+<file name="/home/mininet/onos/apps/sdnip/src/test/java/org/onosproject/sdnip/IntentSyncTest.java">
+<error line="115" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="234" column="37" severity="warning" message="Expected @throws tag for &apos;TestUtilsException&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="295" column="45" severity="warning" message="Expected @throws tag for &apos;TestUtilsException&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="360" column="40" severity="warning" message="Expected @throws tag for &apos;TestUtilsException&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="433" column="40" severity="warning" message="Expected @throws tag for &apos;TestUtilsException&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="468" column="41" severity="warning" message="Expected @throws tag for &apos;TestUtilsException&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="651" column="20" severity="warning" message="Expected @param tag for &apos;nextHopMacAddress&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="651" column="46" severity="warning" message="Expected @throws tag for &apos;TestUtilsException&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/mininet/onos/apps/sdnip/src/test/java/org/onosproject/sdnip/TestIntentServiceHelper.java">
+<error line="59" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/mininet/onos/apps/sdnip/src/test/java/org/onosproject/sdnip/PeerConnectivityManagerTest.java">
+<error line="128" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+</checkstyle>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.9">
+<file name="/home/mininet/onos/apps/test/election/src/main/java/org/onosproject/election/ElectionTest.java">
+<error line="48" column="30" severity="warning" message="Variable &apos;clusterService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="51" column="27" severity="warning" message="Variable &apos;coreService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="54" column="33" severity="warning" message="Variable &apos;leadershipService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="62" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="73" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/mininet/onos/apps/test/election/src/main/java/org/onosproject/election/package-info.java">
+</file>
+<file name="/home/mininet/onos/apps/test/election/src/main/java/org/onosproject/election/cli/ElectionTestWithdrawCommand.java">
+</file>
+<file name="/home/mininet/onos/apps/test/election/src/main/java/org/onosproject/election/cli/package-info.java">
+</file>
+<file name="/home/mininet/onos/apps/test/election/src/main/java/org/onosproject/election/cli/ElectionTestRunCommand.java">
+</file>
+<file name="/home/mininet/onos/apps/test/election/src/main/java/org/onosproject/election/cli/ElectionTestLeaderCommand.java">
+</file>
+</checkstyle>
